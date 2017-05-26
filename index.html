@@ -29,6 +29,21 @@
       padding-top:30px;
       padding-bottom: 30px;
     }
+    // Class
+    .center-block {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    // Usage as a mixin
+    .element {
+      .center-block();
+    }
+
+    .row {
+      padding-bottom:30px;
+    }
     .bg-4 { 
       background-color: #2f2f2f;
       color: #ffffff;
@@ -36,6 +51,11 @@
     .img-responsive {
       margin-bottom:20px;
     }
+    
+    blockquote p {
+      font-size:14px;
+    }
+
     </style>
   </head>
   <body>
@@ -63,21 +83,90 @@
         <div class="col-sm-2">
         </div>
         <div class="col-sm-8">
-          <p class="lead">It's a pretty horrible idea. Here's why:</p>
+          
+          <p class="lead">It's a pretty horrible idea.</p>
           <p>Okay, so you're a public figure, or maybe you work for a big brand. And you figure you'll go to Wikipedia to check out what the article about you says.</p>
 
           <p>And you look, and you realize something is totally inaccurate—or worse, unflattering! And so you say to yourself, <em>"I'm just going to fix it."</em></p>
 
           <p><strong>STOP. That's a bad idea.</strong></p>
-          <p>Plaid asymmetrical cray bicycle rights direct trade viral, lomo affogato PBR&B taxidermy keytar ramps vice gastropub kogi. Slow-carb shoreditch try-hard flexitarian retro. Selvage ramps helvetica hoodie tilde, hell of migas selfies polaroid salvia distillery kitsch skateboard bitters. XOXO everyday carry flannel live-edge chambray. Wayfarers trust fund banjo mumblecore four dollar toast chambray pok pok photo booth, kogi viral succulents +1 leggings raw denim biodiesel. Pitchfork plaid flexitarian marfa, salvia cliche intelligentsia taxidermy snackwave beard tilde. Selvage green juice lo-fi meggings.</p>
-          <p>Pour-over plaid williamsburg, bicycle rights everyday carry PBR&B disrupt lumbersexual asymmetrical next level 3 wolf moon wayfarers woke. Selfies bushwick XOXO synth heirloom. Pork belly vape tattooed, umami cliche aesthetic post-ironic fashion axe banh mi drinking vinegar. Food truck you probably haven't heard of them meditation disrupt fixie. Cold-pressed yuccie cronut, direct trade hella paleo chicharrones aesthetic master cleanse authentic shoreditch. Put a bird on it flannel lo-fi mixtape edison bulb direct trade. Mlkshk you probably haven't heard of them readymade craft beer, swag YOLO lomo skateboard letterpress hexagon.</p>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>       
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">   
+          <h3>Why shouldn't I edit my own Wikipedia page?</h3>
+          <p>Well... editing your own Wikipedia page is a conflict of interest.</p>
+          <p>Wikipedia's <a href="https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines">own policies and guidelines</a> have a comprehensive section on <a href="https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest">Wikipedia conflicts of interests</a>:
+          <blockquote><p>Conflict of interest (COI) editing involves contributing to Wikipedia about yourself, family, friends, clients, employers, or your financial and other relationships. Any external relationship can trigger a conflict of interest. That someone has a conflict of interest is a description of a situation, not a judgment about that person's opinions or integrity.</p>
+          <p>COI editing is strongly discouraged on Wikipedia. It undermines public confidence, and it risks causing public embarrassment to the individuals being promoted. Editors with a COI cannot know whether or how much it has influenced their editing. If COI editing causes disruption, an administrator may opt to place blocks on the involved accounts.</p></blockquote>
+          <p>Wikipedia is one of the most expansive online resources of knowledge and while it's far from perfect, we all benefit from articles that are writen by impartial observers.</p>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>       
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">   
+
+          <h3>But I thought anyone could edit Wikipedia?</h3>
+          <p>Yes, anyone <em>can</em> edit Wikipedia. It's what makes it great! In fact, every once in a while, <a href="http://nymag.com/selectall/2017/01/wikipedia-invertebrate-page-edited-to-include-paul-ryan.html">some charming rogue adds Paul Ryan to a list of invertebrates</a>. It definitely doesn't fall within the Wikipedia guidelines, but damn if it isn't funny.</p>
+          <p><img src="ryan-invertebrate.jpg" class="img-responsive" ></p>
+          <p class="caption"><em>via <a href="https://twitter.com/alplicable/status/824742568852353026/photo/1?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fnymag.com%2Fselectall%2F2017%2F01%2Fwikipedia-invertebrate-page-edited-to-include-paul-ryan.html">@alplicable</a></em></p>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>       
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">             
+          <h3>Okay, so I don't care about the guidelines or ethics. What's stopping me?</h3>
+          <p>Leaving aside the clear conflict of interest (that you're <em>supposed</em> to be disclosing if you edit), your edit will be reviewed by a team of editors on the site, and every edit you make is publicly logged.</p>
+          <p>Your IP address and other information about you may wind up public, and... you just might get caught.</p> 
+          <p><strong>Think it can't happen to you?</strong></p>
+          <p>Wikipedia <a href="https://en.wikipedia.org/wiki/Conflict-of-interest_editing_on_Wikipedia">keeps a list</a> of all the people who have been caught self-editing -- including the founder of Wikipedia Jimmy Wales!
+
+          <p><strong>There's even a Twitter account that tracks every edit made by U.S. Congressional staffers:</strong></p>
+          <a class="twitter-timeline" href="https://twitter.com/congressedits">Tweets by congressedits</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>       
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">  
+          <h3>Okay, but something is <em>wrong</em> about me on the internet. How do I fix it?</h3>
+          <p>Ach, that's the worst! Okay here are a few things you can do:</p>
+          <ol>
+            <li><strong>Edit openly:</strong> Okay, if you absolutely have to edit your Wikipedia page, do it <em>openly</em>. Say who you are, back up your sources, and be ready to engage in the Talk section of your article. But be prepared for community editors to reject your edits, especially if they're subjective or tonal edits.</li>
+            <li><strong>Hire an editor:</strong> If you want to put a little more distance between you and your editing, you can commission a Wikipedia editor to update your page. Wikipedia gets a little fuzzy about this so if you want to go this route, you're on your own.</li>
+            <li><strong>Talk it out:</strong> Okay, so you aren't going to edit your wikipedia page yourself, and you don't want to hire an editor. But you can open a discussion in the Talk section of the article, providing sources you have and ask contributors to consider editing.</li>
+            <li><strong>Control the rest of your web presence:</strong> You might never be able to directly control your Wikipedia page without incurring the wrath of the editing community, but you can do a number of things to make sure your narrative surfaces on the internet. Create a keyword-friendly website, maintain an active social media presence, and generally populate your search results with the information you'd like your article to reflect. Hell, do interviews with news outlets and talk specifically about the very items you wish were covered in your page.</li></ol>
+          </div>
+        <div class="col-sm-2">
+        </div>
+      </div>       
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8"> 
+        <h4 class="text-center"><strong>Building your profile online can take time.</h4>
+        <h4 class="text-center">Looking for help on this and other issues?</strong></h4> 
+        <p class="text-center"><strong>Reach out to the fine people at Precision Strategies:</strong></p>
+        <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href="mailto:ezra@precisionstrategies.com">Get In Touch</a></p>
         </div>
         <div class="col-sm-2">
         </div>
       </div>
     </div>
     <footer class="container-fluid bg-4 text-center"> 
-      <h4>Still have questions? Get in touch with Precision Strategies.</h4>
+        <h4>Still have questions? Get in touch with Precision Strategies.</h4>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
