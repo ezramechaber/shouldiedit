@@ -20,51 +20,19 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-    .container {
-      padding-top: 70px;
-      padding-bottom: 70px;
-    }
-    .container-fluid {
-      padding-top:30px;
-      padding-bottom: 30px;
-    }
-    // Class
-    .center-block {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    // Usage as a mixin
-    .element {
-      .center-block();
-    }
-
-    .row {
-      padding-bottom:30px;
-    }
-    .bg-4 { 
-      background-color: #2f2f2f;
-      color: #ffffff;
-    }
-    .img-responsive {
-      margin-bottom:20px;
-    }
-    
-    blockquote p {
-      font-size:14px;
-    }
-
-    </style>
+    <!--  Local CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
   </head>
   <body>
+    <header class="container-fluid bg-4 text-center"> 
+        <p class="lead">A public service from the fine folk at Precision Strategies.</p>
+    </header>
     <div class="container">
       <div class="row">
         <div class="col-xs-4 col-sm-5">
         </div>
         <div class="col-xs-4 col-sm-2">
-          <img src="Wikipedia-logo-v2.svg.png" class="img-responsive" alt="Responsive image" />
+          <img src="img/Wikipedia-logo-v2.svg.png" class="img-responsive" alt="Responsive image" />
         </div>
         <div class="col-xs-4 col-sm-5">
         </div>
@@ -73,8 +41,9 @@
         <div class="col-sm-2">
         </div>
         <div class="col-sm-8">
-          <h5 class="text-uppercase">Should I edit my own Wikipedia page?</h5>
-          <h1>No. You really, really should not.</h1>
+          <!-- <h5 class="text-uppercase">Should I edit my own Wikipedia page?</h5>
+          <h1>No. You really, really should not.</h1> -->
+          <h1>Here's why you shouldn't edit your own Wikipedia page.</h1>
         </div>
         <div class="col-sm-2">
         </div>
@@ -84,12 +53,15 @@
         </div>
         <div class="col-sm-8">
           
-          <p class="lead">It's a pretty horrible idea.</p>
+          <p class="lead">It looks kinda sneaky. You'll get caught. It'll be embarrassing for you.</p>
+          <p><img src="img/wikipedia-house-of-lies.gif" class="img-responsive center-block" ></p>
           <p>Okay, so you're a public figure, or maybe you work for a big brand. And you figure you'll go to Wikipedia to check out what the article about you says.</p>
 
           <p>And you look, and you realize something is totally inaccurate—or worse, unflattering! And so you say to yourself, <em>"I'm just going to fix it."</em></p>
 
-          <p><strong>STOP. That's a bad idea.</strong></p>
+          <p><strong>Stop right there. Here are a few reasons you maybe shouldn't do that.</strong></p>
+
+          <p><em>Already convinced? <a href="#alternatives">Here are some things you can do instead</a>.</em>
         </div>
         <div class="col-sm-2">
         </div>
@@ -99,23 +71,25 @@
         </div>
         <div class="col-sm-8">   
           <h3>Why shouldn't I edit my own Wikipedia page?</h3>
-          <p>Well... editing your own Wikipedia page is a conflict of interest.</p>
+          <p class="lead">Editing your own Wikipedia page is a conflict of interest.</p>
+          <p>Wikipedia is one of the most expansive online resources of knowledge and while it's far from perfect, we all benefit from articles that are writen by impartial observers.</p>
           <p>Wikipedia's <a href="https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines">own policies and guidelines</a> have a comprehensive section on <a href="https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest">Wikipedia conflicts of interests</a>:
           <blockquote><p>Conflict of interest (COI) editing involves contributing to Wikipedia about yourself, family, friends, clients, employers, or your financial and other relationships. Any external relationship can trigger a conflict of interest. That someone has a conflict of interest is a description of a situation, not a judgment about that person's opinions or integrity.</p>
           <p>COI editing is strongly discouraged on Wikipedia. It undermines public confidence, and it risks causing public embarrassment to the individuals being promoted. Editors with a COI cannot know whether or how much it has influenced their editing. If COI editing causes disruption, an administrator may opt to place blocks on the involved accounts.</p></blockquote>
-          <p>Wikipedia is one of the most expansive online resources of knowledge and while it's far from perfect, we all benefit from articles that are writen by impartial observers.</p>
-        </div>
+          </div>
         <div class="col-sm-2">
         </div>
       </div>       
       <div class="row">
         <div class="col-sm-2">
         </div>
-        <div class="col-sm-8">   
-
-          <h3>But I thought anyone could edit Wikipedia?</h3>
-          <p>Yes, anyone <em>can</em> edit Wikipedia. It's what makes it great! In fact, every once in a while, <a href="http://nymag.com/selectall/2017/01/wikipedia-invertebrate-page-edited-to-include-paul-ryan.html">some charming rogue adds Paul Ryan to a list of invertebrates</a>. It definitely doesn't fall within the Wikipedia guidelines, but damn if it isn't funny.</p>
-          <p><img src="ryan-invertebrate.jpg" class="img-responsive" ></p>
+        <div class="col-sm-8">    
+          <h3>Sure, but anyone <em><strong>can</strong></em> edit Wikipedia, right?</h3>
+          <p class="lead">Yes, anyone <em>can</em> edit Wikipedia.</p>
+          <p>It's what makes it great.</p>
+          <p>In fact, every once in a while, <a href="http://nymag.com/selectall/2017/01/wikipedia-invertebrate-page-edited-to-include-paul-ryan.html">some charming rogue adds Paul Ryan to a list of invertebrates</a>. It definitely doesn't fall within the Wikipedia guidelines, but damn if it isn't funny.</p>
+          <p>But just because it's good for a little light trolling doesn't mean it's a smart idea for your brand.</p>
+          <p><img src="img/ryan-invertebrate.jpg" class="img-responsive" ></p>
           <p class="caption"><em>via <a href="https://twitter.com/alplicable/status/824742568852353026/photo/1?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fnymag.com%2Fselectall%2F2017%2F01%2Fwikipedia-invertebrate-page-edited-to-include-paul-ryan.html">@alplicable</a></em></p>
         </div>
         <div class="col-sm-2">
@@ -125,14 +99,20 @@
         <div class="col-sm-2">
         </div>
         <div class="col-sm-8">             
-          <h3>Okay, so I don't care about the guidelines or ethics. What's stopping me?</h3>
-          <p>Leaving aside the clear conflict of interest (that you're <em>supposed</em> to be disclosing if you edit), your edit will be reviewed by a team of editors on the site, and every edit you make is publicly logged.</p>
+          <h3>I don't care about the guidelines or ethics. What's stopping me?</h3>
+          <p class="lead">Public embarrassment and shaming.</p>
+          <p>Leaving aside the clear conflict of interest (that you're <em>supposed</em> to be disclosing who you are if you're editing with a conflict of interest), your edit will be reviewed by a team of volunteer editors on the site, and every edit you make is publicly logged.</p>
           <p>Your IP address and other information about you may wind up public, and... you just might get caught.</p> 
-          <p><strong>Think it can't happen to you?</strong></p>
-          <p>Wikipedia <a href="https://en.wikipedia.org/wiki/Conflict-of-interest_editing_on_Wikipedia">keeps a list</a> of all the people who have been caught self-editing -- including the founder of Wikipedia Jimmy Wales!
+          <p>Think it can't happen to you?</p>
+          <p>Wikipedia <a href="https://en.wikipedia.org/wiki/Conflict-of-interest_editing_on_Wikipedia">keeps a list</a> of all the people who have been caught self-editing—including the founder of Wikipedia Jimmy Wales himself.
 
           <p><strong>There's even a Twitter account that tracks every edit made by U.S. Congressional staffers:</strong></p>
-          <a class="twitter-timeline" href="https://twitter.com/congressedits">Tweets by congressedits</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <div class="twitter-embed">
+          <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/congressedits">Tweets by congressedits</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <p>If you do get caught, your edit will almost certainly be reversed. Your page will be subjected to more scrutiny, and the community might add even more unflattering (but verifiable details).
+          <p><strong>So ask yourself—is the potential backfire worth it?</strong></p>
+          <p><img src="img/thinking.gif" class="img-responsive center-block" ></p>
         </div>
         <div class="col-sm-2">
         </div>
@@ -141,13 +121,20 @@
         <div class="col-sm-2">
         </div>
         <div class="col-sm-8">  
-          <h3>Okay, but something is <em>wrong</em> about me on the internet. How do I fix it?</h3>
-          <p>Ach, that's the worst! Okay here are a few things you can do:</p>
+          <h3 id="alternatives">But something is <em><strong>wrong</strong></em> about me on the internet. How do I fix it?</h3>
+          <p class="lead">Well, you're not totally S.O.L.</p>
+          <p>Ach, you're right, that's the worst! Okay here are a few things you can do instead of sneakily trying to edit your own Wikipedia page:</p>
           <ol>
-            <li><strong>Edit openly:</strong> Okay, if you absolutely have to edit your Wikipedia page, do it <em>openly</em>. Say who you are, back up your sources, and be ready to engage in the Talk section of your article. But be prepared for community editors to reject your edits, especially if they're subjective or tonal edits.</li>
-            <li><strong>Hire an editor:</strong> If you want to put a little more distance between you and your editing, you can commission a Wikipedia editor to update your page. Wikipedia gets a little fuzzy about this so if you want to go this route, you're on your own.</li>
-            <li><strong>Talk it out:</strong> Okay, so you aren't going to edit your wikipedia page yourself, and you don't want to hire an editor. But you can open a discussion in the Talk section of the article, providing sources you have and ask contributors to consider editing.</li>
-            <li><strong>Control the rest of your web presence:</strong> You might never be able to directly control your Wikipedia page without incurring the wrath of the editing community, but you can do a number of things to make sure your narrative surfaces on the internet. Create a keyword-friendly website, maintain an active social media presence, and generally populate your search results with the information you'd like your article to reflect. Hell, do interviews with news outlets and talk specifically about the very items you wish were covered in your page.</li></ol>
+            <li><strong>Edit honestly and openly:</strong> If you absolutely have to edit your Wikipedia page, do it <em>openly</em>. Say who you are, back up your sources, and be ready to engage in the Talk section of your article. But be prepared for community editors to reject your edits, especially if they're subjective or tonal edits.</li>
+            <li><strong>Talk it out:</strong> Okay, so you aren't going to edit your Wikipedia page yourself, but you can start a discussion in the Talk section of the article. Provide the sources and citations you have, and ask contributors to consider editing.</li>
+            <li><strong>Hire an editor:</strong> You can commission a Wikipedia editor to update your page—generally done with all the same disculosures as editing yourself, they just know a little more about Wikipedia's community guidelines and processes. Wikipedia as a community gets a little fuzzy about this, so if you want to go this route, you're definitelyon your own.</li>
+            <li><strong>Work on yourself:</strong> You might never be able to directly control your Wikipedia page without incurring the wrath of the inernet, but you can make sure the rest of your internet presence reflects you or your brand:
+              <ul>
+              <li>Create a keyword-friendly website;</li>
+              <li>Maintain an active social media presence;</li>
+              <li>Hell, do interviews and profiles with news outlets where you talk specifically about the very items you wish were covered in your page.</li></ul>
+            </li>
+            </ol>
           </div>
         <div class="col-sm-2">
         </div>
@@ -156,9 +143,9 @@
         <div class="col-sm-2">
         </div>
         <div class="col-sm-8"> 
-        <h4 class="text-center"><strong>Building your profile online can take time.</h4>
-        <h4 class="text-center">Looking for help on this and other issues?</strong></h4> 
-        <p class="text-center"><strong>Reach out to the fine people at Precision Strategies:</strong></p>
+        <h4 class="text-center">I bet you just learned a lot, right?</h4> 
+        <h4 class="text-center">Do smart things on the internet. Come chat with us.</h4> 
+        <p class="text-center"><strong>(We don't bite.)</strong></p>
         <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href="mailto:ezra@precisionstrategies.com">Get In Touch</a></p>
         </div>
         <div class="col-sm-2">
@@ -166,7 +153,8 @@
       </div>
     </div>
     <footer class="container-fluid bg-4 text-center"> 
-        <h4>Still have questions? Get in touch with Precision Strategies.</h4>
+        <!--<h4>Still have questions? Get in touch with Precision Strategies.</h4>-->
+        <p>Built to (lovingly) shame potential clients by <a href="http://www.twitter.com/ezramechaber">Ezra Mechaber</a>.</p>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
