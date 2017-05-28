@@ -28,7 +28,7 @@
     }
 
     .row {
-      padding-bottom:30px;
+      padding-bottom:10px;
     }
 
     /* Ribbon styling */
@@ -42,6 +42,7 @@
     }
 
     /* Body styling */
+
     ol li {
       margin-bottom:10px;
     }
@@ -50,22 +51,8 @@
       list-style-type: disc;
     }
 
-    blockquote p {
-      font-size:14px;
-    }
-
     .twitter-embed {
       margin-bottom:30px !important;
-    }
-
-    /* Button colors*/
-    .btn-primary {
-      background:#ff4e00;
-      border-color:#b33700;
-    }
-    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-      background:#b33700;
-      border-color:#b33700;
     }
 
     /* Footer styling */
