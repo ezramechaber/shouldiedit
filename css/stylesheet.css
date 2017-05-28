@@ -3,18 +3,18 @@
       padding-bottom: 70px;
     }
     
-    footer {
-      padding-top:30px;
-      padding-bottom: 30px;
-    }
-
     header {
-      padding-top:10px;
-      padding-bottom:10px;
+      padding-top:15px;
+      padding-bottom:15px;
     }
 
     header .lead {
       margin-bottom:0px;
+    }
+
+    footer {
+      padding-top:30px;
+      padding-bottom: 30px;
     }
 
     .center-block {
