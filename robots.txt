@@ -1,1 +1,4 @@
 User-Agent: *
+
+User-agent: Twitterbot
+Allow: *
